@@ -1,0 +1,414 @@
+.navbar {
+  background-color: #181846;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 112px;
+  border-radius: 0px 0px 22px 22px;
+  display: flex;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 45px;
+}
+h3 {
+  color: black;
+}
+.items-container {
+  margin-left: auto;
+  display: flex;
+  margin-right: 30px;
+}
+.heading-navbar {
+  margin: 53px 0 42px;
+  margin-left: 9px;
+  line-height: 17px;
+
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0;
+  text-align: left;
+}
+.navitem-heading {
+  margin-left: 8px;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0px;
+  display: inline-block;
+  align-content: center;
+}
+
+.nav-item {
+  width: 180px;
+  height: 112px;
+  position: relative;
+  text-decoration: none;
+  color: #c4c5d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.group {
+  position: relative;
+  top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+.loginregister {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loginregister .loginForm {
+  border-radius: 2px;
+  width: 400px;
+  height: 370px;
+  margin-bottom: 30px;
+  background-color: #ecedf5;
+}
+.loginForm h6,
+.registerForm h6 {
+  color: black;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 44px;
+  margin-top: 0;
+}
+.loginregister button {
+  margin-top: 50px;
+  border: 1px solid #ff5722;
+  background-color: #ff5722;
+  width: 330px;
+  height: 36px;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.loginregister button:hover {
+  border-radius: 3px;
+  margin-top: 50px;
+  border: 3px solid #181846;
+  background-color: #ff5722;
+  width: 330px;
+  height: 36px;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 2px;
+}
+
+.loginregister input {
+  width: 330px;
+  height: 42px;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.loginregister span {
+  margin-top: 30px;
+}
+.register {
+  background-color: #ecedf5;
+  margin-top: 30px;
+  width: 400px;
+  height: 92px;
+  display: flex;
+}
+.register i {
+  color: #5f6b8a;
+  width: 60px;
+  height: 60px;
+  justify-content: end;
+}
+.icon {
+  position: relative;
+  bottom: -35px;
+  margin-left: 48px;
+}
+.register p {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5f6b8a;
+}
+.register a {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ff5722;
+}
+.registerLabels {
+  text-align: left;
+  margin-left: 35px;
+}
+
+.registerForm {
+  border-radius: 2px;
+  width: 400px;
+  margin-bottom: 30px;
+  background-color: #ecedf5;
+  height: 450px;
+  margin-top: 90px;
+}
+.buttons {
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  margin-left: auto;
+}
+.create {
+  align-self: flex-start;
+}
+.upperContainer {
+  display: flex;
+  margin-bottom: 35px;
+  margin-top: 190px;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 145px;
+}
+svg text {
+  fill: #181846;
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.time {
+  color: var(--lynch, #5f6b8a);
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.description {
+  color: var(--lynch, #5f6b8a);
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.icons i {
+  margin-left: 15px;
+  margin-top: 23px;
+}
+.time {
+  width: 220px;
+  height: 70px;
+  float: left;
+  border: 0.5px solid #ecedf5;
+  padding: 23px 0;
+  text-align: left;
+  padding-left: 30px;
+}
+.description {
+  float: left;
+  height: 70px;
+  width: 715px;
+  border: 0.5px solid #ecedf5;
+  padding: 23px 0;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.icons {
+  float: right;
+  width: 234px;
+  height: 70px;
+  border: 0.5px solid #ecedf5;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.newInput {
+  align-self: center;
+  margin-right: 100px;
+}
+.pi-icon-hover:hover {
+  transform: scale(1.2);
+}
+.editdesc {
+  width: 715px;
+  height: 70px;
+}
+.history {
+  margin-top: 100px;
+}
+.pi-check-circle:hover {
+  background-color: greenyellow;
+}
+
+.history-heading {
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  color: #0c0d25;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.datesDesc {
+  display: flex;
+  height: 110px;
+  background-color: #f9f9fd;
+}
+.finishedList {
+  margin-top: 45px;
+}
+.datesDesc h5 {
+  text-align: left;
+  color: var(--lynch, #5f6b8a);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  color: #5f6b8a;
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
+.datesDesc .calendar {
+  margin-left: 40px;
+  width: 330px;
+  height: 45px;
+}
+.firstCalendar {
+  margin-left: 10px;
+}
+.search {
+  width: 330px;
+  height: 45px;
+}
+.third InputText {
+  margin-left: 40px;
+}
+.finishedList {
+  display: flex;
+  height: 70px;
+  width: 1165px;
+  background-color: #f9f9fd;
+}
+.finishedList h4 {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  color: #0c0d25;
+}
+
+.finishedList .first,
+.savedTask .first {
+  text-align: left;
+  margin-left: 30px;
+  width: 220px;
+}
+.finishedList .second,
+.savedTask .second {
+  text-align: left;
+  margin-left: 30px;
+  width: 480px;
+}
+
+.finishedList .third,
+.savedTask .third {
+  text-align: left;
+  width: 230px;
+  margin-left: 30px;
+}
+.finishedList .forth,
+.savedTask .forth {
+  text-align: left;
+  margin-left: 30px;
+  width: 235px;
+}
+.savedTask {
+  display: flex;
+}
+.savedTask h3 {
+  color: var(--lynch, #5f6b8a);
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: #5f6b8a;
+}
+
+.savedTask .first,
+.savedTask .second,
+.savedTask .third,
+.savedTask .forth {
+  margin-left: 0px;
+  padding-left: 30px;
+  border: 0.5px solid #ecedf5;
+}
+.savedTask i {
+  color: #5f6b8a;
+}
+.pi-pencil {
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.savedTask .pi:hover {
+  transform: scale(1.2);
+}
+.savedTask .editdesc {
+  width: 480px;
+}
+
+.history .pi-search,
+.history .pi-times:hover {
+  transform: scale(1.2);
+}
+
+.paginator {
+  margin-top: 50px;
+}
+.trackersContainer {
+  margin-left: 135px;
+  height: 110px;
+}
